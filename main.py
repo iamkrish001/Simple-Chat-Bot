@@ -10,11 +10,11 @@ pairs = [
         ["I can help you ",]
     ],
      [
-        r"(.*) your name ?",
+        r"(.*) your name?",
         ["My name is Kobo, but you can just call me K and I'm a chatbot .",]
     ],
     [
-        r"how are you (.*) ?",
+        r"how are you?",
         ["I'm doing very well", "i am great !"]
     ],
     [
@@ -35,8 +35,8 @@ pairs = [
         
     ],
     [
-        r"(.*)created(.*)",
-        ["Krish Bhurtel created me using Python's NLTK library ","top secret ;)",]
+        r"(.*)created you",
+        ["Krish Bhurtel created me using Python's NLTK library "]
     ],
     [
         r"(.*) (location|city) ?",
